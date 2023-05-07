@@ -1,0 +1,24 @@
+C:\Users\torre\Documents\GitHub\element-web
+https://app.element.io/#/home $SET(myuser=torredihanoi@gmail.com)$SET(mypass=Oslo...01)
+
+https://github.com/vector-im/element-web/
+Building From Source
+Element is a modular webapp built with modern ES6 and uses a Node.js build system. Ensure you have the latest LTS version of Node.js installed.
+
+Using yarn instead of npm is recommended. Please see the Yarn install guide if you do not have it already.
+
+Install or update node.js so that your node is at least the current recommended LTS.
+Install yarn if not present already.
+Clone the repo: git clone https://github.com/vector-im/element-web.git.
+Switch to the element-web directory: cd element-web.
+Install the prerequisites: yarn install.
+If you're using the develop branch, then it is recommended to set up a proper development environment (see Setting up a dev environment below)(1). Alternatively, you can use https://develop.element.io (2) - the continuous integration release of the develop branch.
+Configure the app by copying config.sample.json to config.json and modifying it. See the configuration docs for details.(3)
+yarn dist to build a tarball to deploy. Untaring this file will give a version-specific directory containing all the files that need to go on your web server.
+
+(1) https://github.com/vector-im/element-web/#setting-up-a-dev-environment
+(2) https://develop.element.io/#/welcome
+(3) https://github.com/vector-im/element-web/blob/develop/docs/config.md
+
+https://github.com/bennibeni/element-web
+http://localhost:8080/#/home
